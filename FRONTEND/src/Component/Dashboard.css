@@ -1,0 +1,88 @@
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.dashboard-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(151, 199, 215);
+}
+
+
+.dashboard-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+.doctor-info {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.doctor-details {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.doctor-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.speciality {
+  font-size: 14px;
+  color: gray;
+}
+
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.stat-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.stat-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.stat-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.stat-value {
+  font-size: 15px;
+  font-weight: bold;
+  color:black;
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+}
+
+.stat-label {
+  margin-top: -15px;
+  font-size: 14px;
+  color: gray;
+}

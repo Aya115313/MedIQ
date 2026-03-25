@@ -1,0 +1,72 @@
+.online_apointement{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/fgcahg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+}
+.firstdiv{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstdiv h2 {
+    color: #4FC3F7;
+    text-shadow: 
+        0px 1px 0px rgba(0, 0, 0, 0.5),
+        0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.seconddiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40%;
+    gap: 7px;
+    padding: 20px;
+    
+}
+.seconddiv div{
+    font-size: 18px;
+}
+
+
+.firstdiv img{
+    width: 90px;
+}
+.sep{
+    width: 50px;
+}
+.thirddiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    align-items: center;
+    gap: 70px;
+}
+.online-links{
+    display: flex;
+    flex-direction: row;
+}
+.online-links a{
+    color: #4FC3F7;
+    text-decoration: none;
+}
+.upper{
+    /* padding-top: 20px; */
+    /* padding-bottom: 30px; */
+    width: 100vw;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}

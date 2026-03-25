@@ -1,0 +1,76 @@
+.bigdiv {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; 
+}
+
+.container {
+    border-radius: 20px;
+    width: 40%;
+    height: 80vh;
+    background-image: url("../assets/welcome.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 50px;
+}
+
+.text-container h1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.text-container p {
+    font-size: 1rem;
+    color: white;
+}
+
+.button-container {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #c1e6ff, #baf0cd);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 12%;
+}
+
+/* Buttons */
+.welcome-btn {
+    width: 50%;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: #007bff;
+}
+
+/* Right border between buttons */
+.patient-btn {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.doctor-btn {
+    color: #008c4a;
+}
+
+.welcome-btn:hover {
+    opacity: 0.8;
+    scale: 1.2;
+}

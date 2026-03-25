@@ -1,0 +1,79 @@
+.accept-button {
+  background-color: white;
+  color: rgb(151, 199, 215); 
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(151, 199, 215);
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.accept-button:hover:not(:disabled) {
+  background-color: rgb(151, 199, 215);
+  color: white;
+}
+
+.reject-button {
+  background-color: white;
+  color: #890F0F;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid #890F0F;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.reject-button:hover:not(:disabled) {
+  background-color: #890F0F;
+  color: white;
+}
+
+.status-accepted {
+  color: rgb(151, 199, 215);
+  font-weight: bold;
+}
+
+.status-rejected {
+  color: #890F0F;
+  font-weight: bold;
+}
+
+.view-all-row {
+  background-color: white;
+}
+
+.view-all-paragraph {
+  color: rgb(151, 199, 215);
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+}
+
+.view-all-paragraph:hover {
+  text-decoration: underline;
+}
+
+.chat-button {
+  background-color: white;
+  color: rgb(151, 199, 215);
+  padding: 5px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(151, 199, 215);
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.Import-Document{
+  background-color: rgb(151, 199, 215);
+  color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(151, 199, 215);
+  font-weight: bold;
+}

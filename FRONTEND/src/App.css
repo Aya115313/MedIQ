@@ -1,0 +1,657 @@
+@font-face {
+  font-family: "inter";
+  src:url("assets/Inter\,Jost\,Roboto.zip");
+
+}
+
+@font-face {
+  font-family: "segoepr";
+  src: url("./assets/segoepr.ttf");
+}
+
+@font-face {
+  font-family: "Chau";
+  src: url(./assets/Chau_Philomene_One\,Inter\,Jost\,Roboto.zip);
+}
+
+
+body{
+  margin: 0;
+  background-color :#D8EDED;
+  padding-bottom: 1500px;
+  font-family: "sans-serif";
+
+}
+
+.Header-container{
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  
+  
+
+}
+
+.Logo-container{
+
+  position: relative;
+  width: 100px;
+  height:45px ;
+}
+.Logo{
+  width: 61px;
+  height: 41px;
+  
+  
+
+}
+
+.WebSiteName{
+  position: absolute;
+  bottom: -9px;
+  right:17px;
+  font-size: 14px;
+  font-weight:900;
+  line-height: 15.73px;
+  color: #4FC3F7;
+  font-family: "inter" ;
+}
+
+.WebSiteName:hover{
+  text-decoration: underline #4fa3f7;
+}
+
+.Pages{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.43px;
+  
+  font-family: "inter";
+}
+.Page{
+  text-decoration: none;
+  color: #1E1E1E;
+  font-family: "inter";
+  width: 71px;
+  height: 19px;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.Page:hover{
+  text-decoration:underline #4fa3f7 ;
+}
+.Sign{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.Notification{
+  position: relative;
+}
+.Notification-count{
+  position: absolute;
+  top:-8px;
+  right: -10px;
+  border-radius: 50%;
+  background-color: #ff0015;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 2px 2px;
+  font-size: 15px;
+}
+.Notification-icon{
+  width: 25px;
+  height: 25px;
+  color: #4FC3F7;
+}
+
+.fasil{
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
+}
+.insecre-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.insecre{
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4FC3F7;
+  color: white;
+  margin-right: 30px;
+  cursor: pointer;
+  
+
+}
+
+
+.Options{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  background-color:#D8EDED ;
+}
+.Options:active{
+  transition: 0.5s;
+}
+
+.SignIn-options{
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color:#0e5271 ;
+  width: 70px;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  margin-top: 31px;
+  box-shadow: 5px 5px 5px rgb(161, 160, 160);
+
+}
+
+
+.insecre:hover{
+  background-color: #4fc2f7e5;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Apointement-container{
+  background-color: white;
+  color: #FFFCF9;
+  height: 400px;
+  color: black;
+  position: relative;
+  z-index: 1;
+}
+
+.descripton{
+  position: absolute;
+    left:80px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome{
+  width: 200px;
+  height: 26px;
+  font-family: 'segoepr';
+  font-size: 19px;
+  line-height: 26.48px;
+  font-weight: 700;
+  color: #1E1E1E;
+
+}
+
+.title{
+  font-family: "Chau";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 31px;
+  width: 177px;
+}
+
+.browse{
+  width: 270px;
+  height: 26px;
+  font-family: 'segoepr';
+  font-size: 16px;
+  line-height: 26.48px;
+  font-weight: 700;
+  color: black;
+}
+.book-container{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  text-decoration: none;
+  width: 170px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.book{
+  margin-right: 0;
+  background-color: #4FC3F7;
+  font-family: "inter";
+  font-weight: 700;
+  color: white;
+  width: 137px;
+  height: 32px;
+  line-height: 16.94px;
+  font-size: 17px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+
+
+
+}
+
+.Arrow{
+  color: #4FC3F7;
+  font-size: 35px;
+  position: absolute;
+  display: inline-block;
+  width: 19px;
+  font-weight: bold;
+  border:2px;
+  cursor: pointer;
+  font-weight: 700;
+  right: 15px;
+  margin-top: 42px
+
+  
+
+
+}
+
+.welcome:hover{
+  text-decoration: underline #4fa3f7;
+
+  cursor: pointer;
+}
+
+.book-container:hover{
+  text-decoration: underline #4fa3f7;
+
+}
+
+.im{
+  width: 180px;
+  height: 150px;
+}
+.image1{
+  position: absolute;
+  right: 620px;
+  top: 40px;
+}
+
+.image2{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.image3{
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 220px;
+}
+
+.image4{
+  position: absolute;
+  right:100px;
+  bottom: 40px;
+}
+
+.image5{
+  position: absolute;
+  right: 370px;
+  bottom: 40px;
+}
+
+.image6{
+  position: absolute;
+  right: 630px;
+  bottom: 10px;
+  height: 200px;
+  width: 250px;
+  
+
+}
+
+
+.Prop{
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  gap: 10px;
+
+
+
+}
+
+.Visited-Doctors{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 170px;
+  height: 170px;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Doctors-container{
+  display: flex;
+  margin-top: 14px;
+
+  
+}
+
+.VIS{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+  
+}
+
+.Review{
+  color:#2E7291;
+  font-family: "inter";
+  margin-top: 8px;
+}
+
+
+.descrp{
+  color: #2E7291;
+  text-align: center;
+}
+
+.Spec-container{
+  background: linear-gradient(to bottom,#4FC3F7E5,#2E7291);  
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  height: 170px;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.Our-Doctors{
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  color: #2E7291;
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 15px;
+
+}
+
+.our-Spec{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  width: 98px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+
+.spec{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+.Connect{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 170px;
+  height: 170px;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+
+}
+
+.connect-descrp{
+  text-align: center;
+  width: 125px;
+  height: 51px;
+  margin-bottom: 8px;
+  color: #2E7291;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18.52px;
+  font-family: "inter";
+  
+  
+}
+
+.Connectbtn{
+  border: none;
+  border-radius: 20px;
+  width: 125px;
+  height: 31px;
+  margin-bottom: 25px;
+  color:white ;
+  font-family: "inter";
+  font-size: 14px;
+  background-color: #4FC3F7;
+  font-weight: 700px;
+}
+
+
+
+
+
+
+
+
+.Doctor{
+  object-fit: cover;
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 0;
+}
+
+
+.eff:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.one-notif{
+  width: 90%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  border:1px solid #626262;
+  border-radius: 10px;
+  margin-left: 10px;
+  gap:5px 
+
+
+}
+
+
+.upper-info{
+  height: 50%;
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  color: #9E9E9E;
+
+}
+
+.doc-notify-img{
+  height: 100%;
+  width: 80px;
+  border-radius: 10px;
+  border: 1px solid rgb(65, 64, 64);
+  object-fit:cover;
+  object-position:top;
+  
+  
+}
+
+.patient-notify{
+  min-height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 2px 4px rgb(113, 113, 113);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color:white;
+  z-index: 1000;
+  position: absolute;
+  top: 25px;
+  left: -80px;
+
+  
+}
+
+.PNotifications{
+  margin-top: 10px;
+  margin-left: 5px;
+  color: rgb(0, 0, 0);
+}
+.doctor-name{
+  font-size: 8px;
+  color: #333;
+  text-align: start;
+  margin: 0;
+}
+
+.midlle-info{
+  background-color:#D8EDED;
+  margin: 0 8px;
+  border-radius: 4px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: bold;
+  align-items: center;
+  color:black;
+}
+.date-img{
+  width: 10px;
+  height: 10px;
+}
+
+.time-delay{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.delay{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(81, 81, 81);
+  gap: 10px;
+  margin-left: 2px;
+
+
+  
+}
+
+.watch-img{
+  width: 10px;
+  height: 10px;
+}
+
+.final-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.deli{
+  display: flex;
+  flex-direction: row;
+  color: #4FC3F7;
+}
+
+.cancel{
+  display: flex;
+  flex-direction: row;
+  color: red;
+}
+.delayAndCancel{
+  width: 20px;
+  height: 20px;
+}
+
+.Show-all-notifications{
+  color:#4FC3F7;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  
+}
+
+.notification-number{
+  color: #4FC3F7;
+
+}

@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.bigdiv1{
+    width: 100vw;
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-container {
+    height: 98%;
+    /* padding-top:50px ; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f5f9;
+    border-radius: 40px;
+    /* gap: 30px; */
+}
+
+.header {
+    width: 100%;
+    height:20%;
+    /* padding-top: 20px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #c1e6ff, #baf0cd);
+    border-radius: 40px 40px 0px 0px;
+    /* position: sticky; */
+}
+.notification {
+    position: fixed;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .bigdiv1 .notification {
+    top: 20px;
+    opacity: 1;
+  }
+  
+
+.back-btn {
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+    /* text-align: right; */
+    position: absolute;
+    top: 20px;
+    left: 32%;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.blue-text {
+    color: #007bff;
+}
+
+.photo-upload {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #c1e6ff, #baf0cd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+    position: absolute; /* Keeps it independent from parents */
+    top: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Ensures it appears above other elements */
+}
+
+.photo-upload img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+.upload-text {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Form Section */
+.signup-form {
+    width: 100%;
+    height: 85%;
+    background: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    position: relative;
+    
+}
+
+input, textarea {
+    width: 100%;
+    height: 32px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: 0.3s ease-in-out;
+}
+textarea{
+    height: 70px;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    background-color: white;
+}
+
+/* Password Fields */
+.password-field {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.password-field input {
+    width: 100%;
+    height: 32px;
+    padding-right: 40px;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    cursor: pointer;
+    color: gray;
+    font-size: 18px;
+}
+
+/* Terms of Use */
+.terms-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    
+}
+
+.terms-container input {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+/* Create Account Button */
+.signup-btn {
+    width: 60%;
+    align-content: center;
+    background: white;
+    border: 1px solid  black;
+    color:#4FC3F7;
+    /* border: none; */
+    padding: 14px;
+    font-size: 13px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.signup-btn:hover {
+    background: #0056b3;
+}
+
+/* Login Text */
+.login-text {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.login-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+@media (max-width: 800px) {
+    .signup-container {
+      width: 70%;
+    }
+    .back-btn{
+        left: 20%;
+    }
+  }

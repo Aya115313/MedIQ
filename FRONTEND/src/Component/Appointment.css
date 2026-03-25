@@ -1,0 +1,139 @@
+.appointment-container {
+  padding: 15px;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.appointment-title {
+  color: rgb(151, 199, 215);
+  margin: 0;
+  font-size: 20px;
+}
+
+.date-box {
+  border: 1px solid #237CA4;
+  border-radius: 20px;
+  padding: 3px 20px;
+  color: #237CA4;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.search-input {
+  padding: 5px 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.all-paragraph {
+  color: rgb(151, 199, 215);
+  cursor: pointer;
+  margin: 0;
+  font-weight: bold;
+}
+
+.all-paragraph:hover {
+  text-decoration: underline;
+}
+
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+.appointment-table th:first-child,
+.appointment-table td:first-child {
+  border-left: 1px solid #ddd; 
+}
+
+.appointment-table th,
+.appointment-table td {
+  padding: 12px;
+  text-align: left;
+  
+  border-bottom: 1px solid #ddd;
+}
+
+.appointment-table th {
+  background-color: white;
+  font-weight: bold;
+  color: gray;
+  border-bottom: 1px solid #ddd;
+}
+
+.appointment-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.done-button {
+  background-color: white;
+  color: rgb(151, 199, 215);
+  padding: 5px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid rgb(151, 199, 215);
+  font-weight: bold;
+ 
+}
+
+.undone-button {
+  background-color: white;
+  color: #890F0F;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid #890F0F;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.done-button:disabled,
+.undone-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  
+}
+
+.done-button:hover:not(:disabled) {
+  background-color: rgb(151, 199, 215);
+  color: white;
+}
+
+.undone-button:hover:not(:disabled) {
+  background-color: #890F0F;
+  color: white;
+}
+
+.view-all-row {
+  background-color: #f9f9f9;
+}
+
+.view-all-paragraph {
+  color: rgb(151, 199, 215);
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+  margin: 0;
+  padding: 10px;
+}
+
+.view-all-paragraph:hover {
+  text-decoration: underline;
+}
